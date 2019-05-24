@@ -1,2 +1,2 @@
-# 100DaysOfCode
-My 100DaysOfCode
+# 100ProjectsOfCode
+My 100ProjectsOfCode
