@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    background: #f3f3fe;
+}
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.question {
+    width: 600px;
+}
+
+.quiz .answers {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+.quiz label {
+    padding: 15px;
+    margin: 5px 0px;
+    background: #C4c4c4;
+}
+
+.quiz .correct {
+    background: #24A484;
+}
+
+.quiz .incorrect {
+    background: #AF1E2D;
+}
+
+.quiz actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hide {
+    display: none;
+}
