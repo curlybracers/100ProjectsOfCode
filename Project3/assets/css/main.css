@@ -16,7 +16,7 @@ body {
     width: 600px;
 }
 
-.quiz .answers {
+#answers {
     display: flex;
     flex-direction: column;
     margin: 15px 0px;
