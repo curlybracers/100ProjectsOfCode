@@ -55,9 +55,10 @@ action_btn.addEventListener("click", function() {
 
         if (answer.checked && answer.value == question.correct) {
             answer.parentNode.classList.add("correct");
-            score++;
+            score += 2;
         } else if (answer.checked && answer.value != question.correct) {
             answer.parentNode.classList.add("incorrect");
+            score--;
         }
 
         answer.disabled = true;
